@@ -20,11 +20,11 @@ cmake --preset conan-release
 ```
 This builds the directory structure, and so long as the Conan settings do not change, does not need to be rerun each time you would like to recompile. The build instructions are output to the `./build/Release` folder.
 
-3. To finally build the executable on MacOS or Linux, run
+3. To finally build the executable, run
 ```
 cmake --build ./build/Release
 ```
-and on Windows (MSVC, Visual Studio) specify the configuration at run time
+and on build systems supporting multiple configurations (e.g. MSVC), specify the configuration at build time like
 ```
 cmake --build ./build/Release --config Debug
 ```
