@@ -1,5 +1,5 @@
 ## About Eigen-Quick-Start
-This repository contains the few source files necessary to compile a c++ project that depends on the Eigen library.
+This repository contains the few source files necessary to compile a C++ project that depends on the [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page) library. We will use the Conan package manager to accomplish this.
 
 ## Instructions
 First you must set up a Conan profile for your hardware. If you want Conan to figure this out for you (easiest), simply run
